@@ -8,7 +8,8 @@ repositories {
 }
 
 dependencies {
-    implementation("org.springframework.boot:spring-boot-starter-webflux:3.2.5")
+    implementation("mysql:mysql-connector-java:8.0.33")
+    implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
 }
 
 application {
